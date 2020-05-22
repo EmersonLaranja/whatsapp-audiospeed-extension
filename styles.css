@@ -1,0 +1,11 @@
+.two-times-button {
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.active-button {
+  color: rgba(253, 165, 0, 0.753);
+}
