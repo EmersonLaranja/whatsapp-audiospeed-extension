@@ -37,10 +37,12 @@ const interval = setInterval(() => {
 
       if (button.classList.contains('active-button')) {
         audios.forEach((audio) => {
+          audio.defaultPlaybackRate = 2;
           audio.playbackRate = 2;
         });
       } else {
         audios.forEach((audio) => {
+          audio.defaultPlaybackRate = 1;
           audio.playbackRate = 1;
         });
       }
